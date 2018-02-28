@@ -116,7 +116,7 @@ Pows            |Variable      |Array of PoWs
 PoW header includes the field `Worker` and `Timestamp` and `Difficulty`
 and `PredecessorHash`.
 
-The service string thus becomes the POW header. With the `nounce` field 
+The service string thus becomes the POW header. With the `nonce` field 
 the validator committee is able to verify the PoW of this particular miner.
 
 Field           |Length (Bytes)|Description
@@ -125,4 +125,4 @@ PredecessorHash |32            |Hash of its predecessor keyblock  header
 Difficulty      |8             |
 Timestamp       |8             |Unix time
 Worker          |20            |Miner's address
-Nounce          |8             |A 64-bit nounce
+Nonce           |8             |A 64-bit nonce
