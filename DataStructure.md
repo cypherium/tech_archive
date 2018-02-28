@@ -1,6 +1,6 @@
 # Cypherium Data Structures
 
-Description of the core data strctures of the Cypherium blockchain
+Description of the core data structures of the Cypherium blockchain
 
 ## Hash
 Cypherium uses double SHA-3 hash
